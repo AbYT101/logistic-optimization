@@ -1,0 +1,8 @@
+pandas
+numpy
+seaborn
+matplotlib
+requests
+googlemaps
+scikit-learn
+pyyaml
