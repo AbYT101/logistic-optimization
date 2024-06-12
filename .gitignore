@@ -3,11 +3,15 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-data/
+# local files
+data/nb.csv
+data/driver_locations_during_request.csv
+.idea/
+config/config.yml
+
+
 # C extensions
 *.so
-
-.idea/
 
 # Distribution / packaging
 .Python
