@@ -3,7 +3,7 @@ numpy
 seaborn
 matplotlib
 requests
-googlemaps
 scikit-learn
 pyyaml
 geopy
+causalnex
