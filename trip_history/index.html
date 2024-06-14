@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Path Viewer</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="input-container">
+        <label for="tripIdInput">Enter Trip ID:</label>
+        <input type="text" id="tripIdInput" placeholder="Trip ID">
+        <button id="showTripButton">Show Trip</button>
+        <input type="file" id="csvFileInput" accept=".csv">
+        <button id="clearPaths">Clear Paths</button>
+
+    </div>
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+    <script src="https://unpkg.com/leaflet-polyline-decorator"></script>
+    <script src="script.js"></script>
+</body>
+</html>
